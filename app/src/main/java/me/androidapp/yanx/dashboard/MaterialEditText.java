@@ -29,7 +29,7 @@ public class MaterialEditText extends AppCompatEditText {
 
     {
         setPadding(getPaddingLeft(), (int) (getPaddingTop() + TEXT_SIZE + TEXT_MARGIN),
-                   getPaddingRight(), getPaddingBottom());
+                getPaddingRight(), getPaddingBottom());
         paint.setTextSize(TEXT_SIZE);
         addTextChangedListener(new TextWatcher() {
             @Override
@@ -61,7 +61,7 @@ public class MaterialEditText extends AppCompatEditText {
 
     private ObjectAnimator getAnimator2() {
         if (animator2 == null) {
-            ObjectAnimator.ofFloat(MaterialEditText.this, "floatingLabelFraction", 0, 1);
+            animator2 = ObjectAnimator.ofFloat(MaterialEditText.this, "floatingLabelFraction", 0, 1);
         }
         return animator2;
     }
@@ -79,6 +79,7 @@ public class MaterialEditText extends AppCompatEditText {
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
         paint.setAlpha((int) (floatingLabelFraction * 0xff));
+        paint.setTextSize(getTextSize() - floatingLabelFraction * (getTextSize() - TEXT_SIZE));
         canvas.drawText(getHint().toString(), HORIZONTAL_OFFSET, VERTICAL_OFFSET - VERTICAL_OFFSET_EXTRA * floatingLabelFraction, paint);
     }
 }
