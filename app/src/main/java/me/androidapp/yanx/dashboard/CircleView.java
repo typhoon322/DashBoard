@@ -24,7 +24,7 @@ public class CircleView extends View {
 
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
-        int size = (int) (radius / 2 + PADDING);
+        int size = (int) (radius + PADDING) * 2;
         int width = resolveSize(size, widthMeasureSpec);
         int height = resolveSize(size, heightMeasureSpec);
         setMeasuredDimension(width, height);

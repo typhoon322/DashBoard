@@ -1,31 +1,179 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<me.androidapp.yanx.dashboard.TagLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <FrameLayout
-        android:layout_width="match_parent"
+    <me.androidapp.yanx.dashboard.ColoredTextView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#30000000">
+        android:text="北京市" />
 
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-    </FrameLayout>
-
-    <FrameLayout
-        android:layout_width="match_parent"
+    <me.androidapp.yanx.dashboard.ColoredTextView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#30ff0000">
+        android:text="天津市" />
 
-        <me.androidapp.yanx.dashboard.MaterialEditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="UserName"/>
-    </FrameLayout>
+    <me.androidapp.yanx.dashboard.ColoredTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="上海市" />
 
-</LinearLayout>
+    <me.androidapp.yanx.dashboard.ColoredTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="重庆市" />
+
+    <me.androidapp.yanx.dashboard.ColoredTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="河北省" />
+
+    <me.androidapp.yanx.dashboard.ColoredTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="山西省" />
+
+    <me.androidapp.yanx.dashboard.ColoredTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="辽宁省" />
+
+    <me.androidapp.yanx.dashboard.ColoredTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="吉林省" />
+
+    <me.androidapp.yanx.dashboard.ColoredTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="黑龙江省" />
+
+    <me.androidapp.yanx.dashboard.ColoredTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="江苏省" />
+
+    <me.androidapp.yanx.dashboard.ColoredTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="浙江省" />
+
+    <me.androidapp.yanx.dashboard.ColoredTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="安徽省" />
+
+    <me.androidapp.yanx.dashboard.ColoredTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="福建省" />
+
+    <me.androidapp.yanx.dashboard.ColoredTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="江西省" />
+
+    <me.androidapp.yanx.dashboard.ColoredTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="山东省" />
+
+    <me.androidapp.yanx.dashboard.ColoredTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="河南省" />
+
+    <me.androidapp.yanx.dashboard.ColoredTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="湖北省" />
+
+    <me.androidapp.yanx.dashboard.ColoredTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="湖南省" />
+
+    <me.androidapp.yanx.dashboard.ColoredTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="广东省" />
+
+    <me.androidapp.yanx.dashboard.ColoredTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="海南省" />
+
+    <me.androidapp.yanx.dashboard.ColoredTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="四川省" />
+
+    <me.androidapp.yanx.dashboard.ColoredTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="贵州省" />
+
+    <me.androidapp.yanx.dashboard.ColoredTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="云南省" />
+
+    <me.androidapp.yanx.dashboard.ColoredTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="陕西省" />
+
+    <me.androidapp.yanx.dashboard.ColoredTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="甘肃省" />
+
+    <me.androidapp.yanx.dashboard.ColoredTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="青海省" />
+
+    <me.androidapp.yanx.dashboard.ColoredTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="台湾省" />
+
+    <me.androidapp.yanx.dashboard.ColoredTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="内蒙古自治区" />
+
+    <me.androidapp.yanx.dashboard.ColoredTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="广西壮族自治区" />
+
+    <me.androidapp.yanx.dashboard.ColoredTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="西藏自治区" />
+
+    <me.androidapp.yanx.dashboard.ColoredTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="宁夏回族自治区" />
+
+    <me.androidapp.yanx.dashboard.ColoredTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="新疆维吾尔自治区" />
+
+    <me.androidapp.yanx.dashboard.ColoredTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="香港特别行政区" />
+
+    <me.androidapp.yanx.dashboard.ColoredTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="澳门特别行政区" />
+
+</me.androidapp.yanx.dashboard.TagLayout>

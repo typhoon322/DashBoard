@@ -6,10 +6,10 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <me.androidapp.yanx.dashboard.FlipAnimView
+    <me.androidapp.yanx.dashboard.CircleView
         android:id="@+id/view"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:hint="UserName" />
-
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:background="@color/colorPrimaryDark"
+        android:src="@drawable/demo" />
 </LinearLayout>
